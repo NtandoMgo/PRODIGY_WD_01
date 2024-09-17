@@ -1,1 +1,23 @@
-/* navbar.css */
+
+.header {
+    background: linear-gradient(90deg, #EE82EE 0%, #7D00D4 34%, #9400FF 71%, #EE82EE 100%);
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    font-size: 26px;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links ul{
+    display: flex;
+    gap: 20px;
+}
