@@ -16,15 +16,36 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.about-hero-content {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
+.content-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    max-width: 80%;
-}
-
-.about-hero-content p {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .content-box h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #7d00d4;
+  }
+  
+  .content-box p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .content-box ul {
+    list-style: none;
+    padding: 0;
     margin: 0;
-    line-height: 1.6;
-}
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .content-box ul li {
+    margin-bottom: 10px;
+  }
