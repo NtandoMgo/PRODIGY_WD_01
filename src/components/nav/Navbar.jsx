@@ -22,13 +22,13 @@ const Navbar = () => {
               <Link to="/" onClick={toggleMenu} className="text-white hover:text-gray-300">Home</Link>
             </li>
             <li>
-              <Link to="/about" onClick={toggleMenu} className="text-white hover:text-gray-300">About</Link>
+              <Link to="/about-me" onClick={toggleMenu} className="text-white hover:text-gray-300">About</Link>
             </li>
             <li>
-              <Link to="/services" onClick={toggleMenu} className="text-white hover:text-gray-300">Services</Link>
+              <Link to="/my-work" onClick={toggleMenu} className="text-white hover:text-gray-300">Services</Link>
             </li>
             <li>
-              <Link to="/contact" onClick={toggleMenu} className="text-white hover:text-gray-300">Contact</Link>
+              <Link to="/contact-me" onClick={toggleMenu} className="text-white hover:text-gray-300">Contact</Link>
             </li>
           </ul>
         </div>

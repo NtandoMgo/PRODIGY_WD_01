@@ -1,0 +1,42 @@
+.home-container {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh;
+    background: linear-gradient(90deg,
+            #ee82ee 0%,
+            #7d00d4 34%,
+            #9400ff 71%,
+            #ee82ee 100%);
+    border-radius: 10px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.hero-content h2 {
+    color: white;
+    font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+    .hero-content h2 {
+        font-size: 3rem;
+    }
+
+    .hero-content {
+        top: 35%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .hero-content h2 {
+        font-size: 2.5rem;
+    }
+}
