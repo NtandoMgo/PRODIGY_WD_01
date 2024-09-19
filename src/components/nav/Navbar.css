@@ -6,7 +6,7 @@
     #9400ff 71%,
     #ee82ee 100%
   );
-  padding: 10px 20px;
+  padding: 20px 20px;
   font-size: 20px;
   border-bottom: 2px solid #ccc; 
 }
@@ -26,6 +26,11 @@
 .nav-links ul {
   display: flex;
   gap: 20px;
+}
+
+.nav-links ul li:hover {
+  background-color: grey;
+  border-radius: 10px;
 }
 
 /* Mobile menu toggle button */
