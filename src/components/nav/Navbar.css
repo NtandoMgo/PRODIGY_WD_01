@@ -1,3 +1,5 @@
+/* Navbar.css */
+
 .header {
   background: linear-gradient(
     90deg,
@@ -8,7 +10,7 @@
   );
   padding: 20px 20px;
   font-size: 20px;
-  border-bottom: 2px solid #ccc; 
+  border-bottom: 2px solid #ccc;
 }
 
 .container {
@@ -28,6 +30,10 @@
   gap: 20px;
 }
 
+.nav-links ul li {
+  list-style: none;
+}
+
 .nav-links ul li:hover {
   background-color: grey;
   border-radius: 10px;
@@ -36,14 +42,15 @@
 /* Mobile menu toggle button */
 .hamburger {
   display: none;
-  font-size: 1.6rem;
   cursor: pointer;
+  font-size: 1.6rem;
 }
 
 .hamburger span {
   height: 3px;
   width: 25px;
-  background-color: black;
+  background-color: white;
+  display: block;
   margin: 4px;
 }
 
@@ -51,40 +58,36 @@
   .nav-links {
     font-size: 26px;
   }
-  
 }
 
 @media (max-width: 480px) {
-    .nav-links {
-      flex-direction: column;
-      justify-content: space-evenly;
-      position: absolute;
-      /* top: 70px; */
-      top: -300px;
-      right: 0;
-      background-color: #7d00d4;
-      width: 150px;
-      font-size: 22px;
-
-      transition: top 0.3s ease;
-    }
-
-    .nav-links.active {
-      top: 70px; /* Visible when active */
-    }
-
-    .nav-links ul {
-      display: block;
-      gap: 20px;
-    }
-  
-    .hamburger {
-      display: block;
-    }
-  
-    .nav-links ul li {
-      text-align: center;
-      margin: 20px 0;
-    }
-    
+  .nav-links {
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: absolute;
+    top: -300px;
+    right: 0;
+    background-color: #7d00d4;
+    width: 150px;
+    font-size: 22px;
+    transition: top 0.3s ease;
   }
+
+  .nav-links.active {
+    top: 70px; /* Visible when active */
+  }
+
+  .nav-links ul {
+    display: block;
+    gap: 20px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links ul li {
+    text-align: center;
+    margin: 20px 0;
+  }
+}
