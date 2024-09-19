@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {FaBars} from 'react-icons/fa6'
+import { FaBars } from 'react-icons/fa';
+
 import './Navbar.css';
 
 const Navbar = () => {
