@@ -16,8 +16,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.content-box {
-    background: #fff;
+.about-container .content-box {
+    background: #FFFFFFCC;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -48,4 +48,11 @@
   
   .content-box ul li {
     margin-bottom: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .about-container .content-box {
+      /* max-width: 600px; */
+      width: 98%;
+    }
   }

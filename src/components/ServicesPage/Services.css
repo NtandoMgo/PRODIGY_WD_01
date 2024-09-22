@@ -16,8 +16,8 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.content-box {
-    background: #f0f0f0;
+.services-container .content-box {
+    background: #FFFFFFCC;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -31,8 +31,14 @@
     color: #7d00d4;
   }
   
-  .content-box p {
+  .services-container .content-box p {
     font-size: 1.1rem;
     color: #333;
     line-height: 1.6;
+  }
+
+  @media (max-width: 768px) {
+    .services-container .content-box {
+      width: 98%;
+    }
   }
